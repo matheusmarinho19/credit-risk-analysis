@@ -6,7 +6,7 @@ through dashboards and structured data models.
 
 ## 🛠 Technologies
 - Python (Pandas, NumPy, Matplotlib)
-- SQL (SQLite)
+- SQL (MySQL)
 - Power BI
 - GitHub
 
