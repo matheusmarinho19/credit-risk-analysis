@@ -1,27 +1,34 @@
-# Credit Risk Analysis for Fintechs
+# 📊 Credit Risk Analysis — Fintech Scenario
 
-This project simulates a real-world credit risk analysis scenario in a fintech environment.
-The goal is to analyze customer behavior, build a simple credit score and present insights
-through dashboards and structured data models.
+## 📌 Contexto
+Este projeto foi desenvolvido para simular um cenário real de análise de risco de crédito em uma fintech. O objetivo é transformar dados brutos em informações estratégicas por meio de análise e visualização de dados.
 
-## 🛠 Technologies
+## 🎯 Objetivos
+- Analisar o perfil de clientes adimplentes e inadimplentes
+- Identificar padrões e fatores que influenciam a inadimplência
+- Criar indicadores e dashboards para apoio à tomada de decisão
+
+## 🛠️ Tecnologias Utilizadas
 - Python (Pandas, NumPy, Matplotlib)
 - SQL (MySQL)
 - Power BI
 - GitHub
 
-## 📊 Project Structure
-- `data/`: Raw and processed datasets
-- `notebooks/`: Data analysis and feature engineering
-- `sql/`: Database modeling and queries
-- `powerbi/`: Dashboards and reports
+## 📂 Estrutura do Projeto
+- **Análise Exploratória:** tratamento, validação e entendimento dos dados
+- **Modelagem de Dados:** estruturação relacional utilizando MySQL
+- **Visualização:** criação de dashboard interativo no Power BI
 
-## 🎯 Objectives
-- Analyze default behavior
-- Build a credit score
-- Create KPIs and dashboards
-- Simulate a real BI workflow
+## 📊 Dashboard
+![Dashboard](images/dashboard_credit_risk.png)
 
-## 🚧 Status
-Project in progress.
+## 🔍 Principais Insights
+- Clientes com histórico recente de atraso apresentam maior taxa de inadimplência
+- Algumas faixas etárias concentram maior risco de crédito
+- O comportamento de pagamento impacta mais o risco do que o limite de crédito isoladamente
+
+## 🚀 Próximos Passos
+- Evoluir para um modelo preditivo de risco de crédito
+- Automatizar processos de ingestão e atualização de dados
+- Publicar versão online do dashboard
 
